@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@300;400&family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+/* nav bar */
+
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* links */
+
+.portion {
+    height: 100%;
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+/* spotify logo */
+
+.image {
+    height: 100%;
+    width: 140px;
+
+}
+
+.image img {
+    margin-top: 1rem;
+    background-size: cover;
+    cursor:pointer;
+}
+
+/* header links */
+
+.rest {
+    height: 100%;
+    width: 50%;
+}
+
+.rest a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.rest a:hover {
+    color: rgba(9, 255, 0, 0.904);
+}
+
+.rest ul {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    padding: 2px;
+    margin-top: 1.4rem;
+}
+/* main body  */
+
+.container {
+    min-height: 70vh;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    background-color: black;
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    border-radius: 12px;
+    padding: 22px;
+    background-image: url('img/s\ bg.jpg');
+    background-size: cover;
+ 
+}
+
+ 
+
+/* bottom bar  */
+
+.bottom{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+    color: white;
+}
+
+
+#myprogressbar{
+    width: 95%;
+    margin-top: 1rem;
+}
+
+.icons {
+    display: flex;
+    width: 100%;
+    height: 1.5rem;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 5px;
+}
+
+.icons i{
+    cursor: pointer;
+}
