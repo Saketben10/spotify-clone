@@ -105,8 +105,11 @@ nav {
 
 
 #myprogressbar{
-    width: 95%;
+    width: 80%;
     margin-top: 1rem;
+    margin-left: 7rem;
+    cursor: pointer;
+
 }
 
 .icons {
@@ -120,4 +123,49 @@ nav {
 
 .icons i{
     cursor: pointer;
+}
+
+
+/* song items  */
+
+.songItem{
+    margin-top: 0.5rem;
+    height: 50px;
+    width: 95%;
+    background-color:#323438;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.songItem img {
+    border-radius:50%;
+  
+}
+
+
+.songItem i{
+    cursor: pointer;
+}
+
+.songItem i:hover {
+    color: rgba(1, 228, 58, 0.747);
+}
+ 
+.songinfo{
+    position: absolute;
+    left: 8rem;
+    top: 2rem;
+    font-family: 'Rubik', sans-serif;
+
+    
+}
+
+.songinfo img {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
 }
